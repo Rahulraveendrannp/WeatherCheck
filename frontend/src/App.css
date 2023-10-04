@@ -1,0 +1,48 @@
+.toast-message {
+    background: rgb(58, 58, 90);
+    color: #551515;
+    font-size: 15px;
+    width: 300px;
+    padding: 30px 20px;
+}
+
+/* Define the styles for the legend class */
+.legend {
+    margin-top: 10px; /* Adjust the top margin as needed */
+  }
+  
+  /* Define the styles for each legend item (e.g., colored box and label) */
+  .legend span {
+    display: inline-block;
+    width: 20px; /* Adjust the width of the colored box */
+    height: 10px; /* Adjust the height of the colored box */
+    margin-right: 1px; /* Adjust the space between the colored box and label */
+    margin-left: 10px; /* Adjust the space between the colored box and label */
+    vertical-align: middle; /* Vertically align the legend items */
+  }
+  #root{
+    background-color: #ffffff;
+  }
+
+  /* Add your CSS in a separate stylesheet or in your component */
+
+.scroll-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ced0d3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  
+}
+
+.scroll-to-top-button.visible {
+  display: block;
+}
+
+  
+ 
